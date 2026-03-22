@@ -1,0 +1,28 @@
+{
+  "task_name": "vectors__dba_vector_analysis",
+  "model_name": "qwen-3-coder-plus",
+  "actual_model_name": "qwen3-coder-480b-a35b-instruct",
+  "litellm_run_model_name": "qwen3-coder-plus",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T20:32:07.916939",
+    "end": "2025-09-01T20:33:27.182384"
+  },
+  "agent_execution_time": 77.93449354171753,
+  "task_execution_time": 79.26544284820557,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "  PASSED\n\n  FAILED\n    - Agent analyzed non-vector tables: {'search_cache', 'knowledge_base', 'embedding_models'}\n\n  PASSED\n\n  PASSED\n\nResults: 3/4 checks passed\n"
+  },
+  "token_usage": {
+    "input_tokens": 391844,
+    "output_tokens": 2986,
+    "total_tokens": 394830,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 33
+}

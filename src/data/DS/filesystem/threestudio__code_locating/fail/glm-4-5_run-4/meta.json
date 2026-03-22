@@ -1,0 +1,28 @@
+{
+  "task_name": "threestudio__code_locating",
+  "model_name": "glm-4.5",
+  "actual_model_name": "glm-4.5",
+  "litellm_run_model_name": "glm-4.5",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-27T09:26:57.144480",
+    "end": "2025-08-27T09:27:44.697755"
+  },
+  "agent_execution_time": 47.309789419174194,
+  "task_execution_time": 47.55327224731445,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 38252,
+    "output_tokens": 1372,
+    "total_tokens": 39624,
+    "reasoning_tokens": null
+  },
+  "turn_count": 12
+}

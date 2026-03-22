@@ -1,0 +1,27 @@
+{
+  "task_name": "chinook__employee_hierarchy_management",
+  "model_name": "kimi-k2-0905",
+  "litellm_run_model_name": "kimi-k2-0905-preview",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-07T01:54:45.836815",
+    "end": "2025-09-07T01:57:16.091898"
+  },
+  "agent_execution_time": 150.09972262382507,
+  "task_execution_time": 150.2550802230835,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\nVerifying Task 3: Employee Hierarchy Management\n==================================================\n✅ Employee count and title verification passed\n✅ Specific employee verification passed - all fields match exactly\n✅ Customer assignment verification passed\n✅ Employee performance table verification passed\n✅ Employee deletion and promotion verification passed\n✅ Salary column verification passed\n\n🎉 Task verification: PASS\nAll employee hierarchy management operations completed correctly!\n"
+  },
+  "token_usage": {
+    "input_tokens": 233496,
+    "output_tokens": 2085,
+    "total_tokens": 235581,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 29
+}

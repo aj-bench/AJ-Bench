@@ -1,0 +1,28 @@
+{
+  "task_name": "security__user_permission_audit",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-25T05:39:19.895731",
+    "end": "2025-08-25T05:46:03.941306"
+  },
+  "agent_execution_time": 403.78105878829956,
+  "task_execution_time": 404.0455722808838,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 174179,
+    "output_tokens": 6917,
+    "total_tokens": 181096,
+    "reasoning_tokens": null
+  },
+  "turn_count": 18
+}

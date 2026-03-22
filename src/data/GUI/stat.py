@@ -1,0 +1,18 @@
+data = [
+    ['Layer1', 'Layer2', 'Layer3', 'Value'],
+    ["OS", "PPT", "Text and object formatting", 9],
+    ["OS", "PPT", "Layout and design", 5],
+    ["OS", "PPT", "Media and tables", 3],
+    ["OS", "PPT", "Transitions and features", 2],
+    ["OS", "PPT", "File export and save", 2],
+    ["OS", "Word", "Text and paragraph formatting", 8],
+    ["OS", "Word", "Image insertion", 1],
+    ["OS", "Word", "Tables", 1],
+    ["OS", "Word", "Page setup and numbering", 2],
+    ["OS", "Excel", "Formulas and calculations", 6],
+    ["OS", "Excel", "Charts", 1],
+    ["OS", "Excel", "Pivot tables", 1],
+    ["OS", "Excel", "Sheet and layout management", 4],
+    ["OS", "Excel", "Data transformation and formatting", 5],
+    ["OS", "Excel", "Export and sharing", 2],
+]

@@ -1,0 +1,28 @@
+{
+  "task_name": "vectors__dba_vector_analysis",
+  "model_name": "gpt-5",
+  "actual_model_name": "gpt-5-2025-08-07",
+  "litellm_run_model_name": "gpt-5-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-25T10:10:44.883158",
+    "end": "2025-08-25T10:19:43.108414"
+  },
+  "agent_execution_time": 537.5822875499725,
+  "task_execution_time": 538.2252542972565,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 1273763,
+    "output_tokens": 30915,
+    "total_tokens": 1304678,
+    "reasoning_tokens": null
+  },
+  "turn_count": 13
+}

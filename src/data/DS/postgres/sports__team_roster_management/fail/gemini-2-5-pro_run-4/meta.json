@@ -1,0 +1,28 @@
+{
+  "task_name": "sports__team_roster_management",
+  "model_name": "gemini-2.5-pro",
+  "actual_model_name": "gemini-2.5-pro",
+  "litellm_run_model_name": "gemini-2.5-pro",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T18:51:35.386302",
+    "end": "2025-08-20T18:56:10.245538"
+  },
+  "agent_execution_time": 274.71269631385803,
+  "task_execution_time": 274.85923504829407,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 105007,
+    "output_tokens": 27137,
+    "total_tokens": 132144,
+    "reasoning_tokens": null
+  },
+  "turn_count": 17
+}

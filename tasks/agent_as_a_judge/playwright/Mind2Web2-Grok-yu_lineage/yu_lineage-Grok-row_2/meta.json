@@ -1,0 +1,18 @@
+{
+    "task_id": "yu_lineage-Grok-row_2",
+    "task_name": "yu_lineage-Grok-row_2",
+    "category_id": "Mind2Web2-Grok-yu_lineage",
+    "category_name": "Mind2Web2-Grok-yu_lineage",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-yu_lineage",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

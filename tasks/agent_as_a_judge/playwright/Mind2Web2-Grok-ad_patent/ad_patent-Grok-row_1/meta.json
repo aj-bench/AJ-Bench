@@ -1,0 +1,18 @@
+{
+    "task_id": "ad_patent-Grok-row_1",
+    "task_name": "ad_patent-Grok-row_1",
+    "category_id": "Mind2Web2-Grok-ad_patent",
+    "category_name": "Mind2Web2-Grok-ad_patent",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-ad_patent",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

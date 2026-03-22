@@ -1,0 +1,18 @@
+{
+    "task_id": "nba_career_high-Gemini-row_1",
+    "task_name": "nba_career_high-Gemini-row_1",
+    "category_id": "Mind2Web2-Gemini-nba_career_high",
+    "category_name": "Mind2Web2-Gemini-nba_career_high",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Gemini-nba_career_high",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "chinook__sales_and_music_charts",
+  "model_name": "gemini-2.5-pro",
+  "actual_model_name": "gemini-2.5-pro",
+  "litellm_run_model_name": "gemini-2.5-pro",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T18:30:37.963772",
+    "end": "2025-08-20T18:32:20.107963"
+  },
+  "agent_execution_time": 102.0140700340271,
+  "task_execution_time": 102.14418745040894,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 14858,
+    "output_tokens": 11304,
+    "total_tokens": 26162,
+    "reasoning_tokens": null
+  },
+  "turn_count": 4
+}

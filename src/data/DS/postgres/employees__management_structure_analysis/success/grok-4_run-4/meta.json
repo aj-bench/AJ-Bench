@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__management_structure_analysis",
+  "model_name": "grok-4",
+  "actual_model_name": "grok-4-0709",
+  "litellm_run_model_name": "grok-4-0709",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T21:14:52.572334",
+    "end": "2025-09-01T21:17:33.085424"
+  },
+  "agent_execution_time": 154.82902097702026,
+  "task_execution_time": 160.51308608055115,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\n\u2705 Manager profile results are correct (24 records)\n\u2705 Department leadership results are correct (9 records)\n\u2705 Management transitions results are correct (15 records)\n\u2705 Span of control results are correct (9 records)\n\n\ud83c\udf89 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 96177,
+    "output_tokens": 5701,
+    "total_tokens": 101878,
+    "reasoning_tokens": 4362
+  },
+  "turn_count": 14
+}

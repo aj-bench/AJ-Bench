@@ -1,0 +1,18 @@
+{
+    "task_id": "gas_stations-Perplexity-row_9",
+    "task_name": "gas_stations-Perplexity-row_9",
+    "category_id": "Mind2Web2-Perplexity-gas_stations",
+    "category_name": "Mind2Web2-Perplexity-gas_stations",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Perplexity-gas_stations",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

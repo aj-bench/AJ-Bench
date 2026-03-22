@@ -1,0 +1,18 @@
+{
+    "task_id": "ws_en_024-Grok-row_11",
+    "task_name": "ws_en_024-Grok-row_11",
+    "category_id": "WideSearch-Grok-ws_en_024",
+    "category_name": "WideSearch-Grok-ws_en_024",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-29",
+    "difficulty": "Normal",
+    "tags": [
+        "WideSearch-Grok-ws_en_024",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

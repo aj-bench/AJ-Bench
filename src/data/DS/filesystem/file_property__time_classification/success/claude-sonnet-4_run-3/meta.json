@@ -1,0 +1,28 @@
+{
+  "task_name": "file_property__time_classification",
+  "model_name": "claude-sonnet-4-20250514",
+  "actual_model_name": "claude-sonnet-4-20250514",
+  "litellm_run_model_name": "claude-sonnet-4-20250514",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T20:01:16.614291",
+    "end": "2025-08-20T20:04:25.044685"
+  },
+  "agent_execution_time": 188.3586721420288,
+  "task_execution_time": 188.43038892745972,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 178539,
+    "output_tokens": 5456,
+    "total_tokens": 183995,
+    "reasoning_tokens": null
+  },
+  "turn_count": 31
+}

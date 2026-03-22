@@ -1,0 +1,28 @@
+{
+  "task_name": "desktop__timeline_extraction",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T23:16:36.098575",
+    "end": "2025-08-23T23:20:37.105006"
+  },
+  "agent_execution_time": 240.9384047985077,
+  "task_execution_time": 241.00642085075378,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 188507,
+    "output_tokens": 3860,
+    "total_tokens": 192367,
+    "reasoning_tokens": null
+  },
+  "turn_count": 16
+}

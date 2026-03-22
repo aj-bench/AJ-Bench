@@ -1,0 +1,27 @@
+{
+  "task_name": "security__rls_business_access",
+  "model_name": "kimi-k2-0905",
+  "litellm_run_model_name": "kimi-k2-0905-preview",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-07T15:04:33.329767",
+    "end": "2025-09-07T15:47:11.680651"
+  },
+  "agent_execution_time": 2558.0332787036896,
+  "task_execution_time": 2558.3508813381195,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "Verifying...\n\n1. Checking RLS enablement...\n\n2. Testing user profile access control...\n\n3. Testing channel ownership controls...\n\n4. Testing post access controls...\n\n5. Testing comment access controls...\n\n6. Testing moderator assignment controls...\n\n7. Testing content visibility...\n\n8. Testing anonymous user restrictions...\n\n============================================================\nRLS VERIFICATION RESULTS - SOCIAL MEDIA PLATFORM\n============================================================\n✓ RLS enabled on users\n✓ RLS enabled on channels\n✓ RLS enabled on channel_moderators\n✓ RLS enabled on posts\n✓ RLS enabled on comments\n✓ Users can update their own profile\n✓ Users blocked from updating other users' profiles\n✓ Channel owners can update their channels\n✓ Non-owners blocked from updating channels\n✓ Post authors can update their posts\n✓ Channel moderators can update posts in their channels\n✓ Unauthorized users blocked from updating posts\n✓ Comment authors can update their comments\n✓ Post authors can moderate comments on their posts\n✓ Channel owners can add moderators\n✓ Non-owners blocked from adding moderators\n✓ Content visibility varies correctly based on user context\n✓ Anonymous users can see 3 public user profiles (correct)\n\nSummary: 18 passed, 0 failed\n\nAll tests passed.\n"
+  },
+  "token_usage": {
+    "input_tokens": 1323507,
+    "output_tokens": 9921,
+    "total_tokens": 1333428,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 77
+}

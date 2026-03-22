@@ -1,0 +1,18 @@
+{
+    "task_id": "hf_vqa_dataset-Grok-row_5",
+    "task_name": "hf_vqa_dataset-Grok-row_5",
+    "category_id": "Mind2Web2-Grok-hf_vqa_dataset",
+    "category_name": "Mind2Web2-Grok-hf_vqa_dataset",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-hf_vqa_dataset",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

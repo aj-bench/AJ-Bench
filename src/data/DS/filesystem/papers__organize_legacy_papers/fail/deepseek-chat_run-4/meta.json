@@ -1,0 +1,28 @@
+{
+  "task_name": "papers__organize_legacy_papers",
+  "model_name": "deepseek-chat",
+  "actual_model_name": "deepseek-v3.1-non-think",
+  "litellm_run_model_name": "deepseek-chat",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T19:00:34.146931",
+    "end": "2025-08-20T19:01:26.176757"
+  },
+  "agent_execution_time": 51.976518869400024,
+  "task_execution_time": 52.029824018478394,
+  "execution_result": {
+    "success": false,
+    "error_message": "Error code: 400 - {'error': {'message': \"This model's maximum context length is 131072 tokens. However, you requested 254748 tokens (254748 in the messages, 0 in the completion). Please reduce the length of the messages or completion. (tid: 2025082011012433457161582168909)\", 'type': 'invalid_request_error', 'param': '', 'code': 'invalid_request_error'}}",
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 13022,
+    "output_tokens": 599,
+    "total_tokens": 13621,
+    "reasoning_tokens": null
+  },
+  "turn_count": 4
+}

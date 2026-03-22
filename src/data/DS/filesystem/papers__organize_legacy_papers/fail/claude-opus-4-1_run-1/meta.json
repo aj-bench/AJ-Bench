@@ -1,0 +1,28 @@
+{
+  "task_name": "papers__organize_legacy_papers",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-24T00:24:50.110527",
+    "end": "2025-08-24T00:27:11.127245"
+  },
+  "agent_execution_time": 140.9607548713684,
+  "task_execution_time": 141.01671504974365,
+  "execution_result": {
+    "success": false,
+    "error_message": "Error code: 400 - {'error': {'message': 'prompt is too long: 212839 tokens > 200000 maximum (tid: 202508231627049510938847528203)', 'type': 'invalid_request_error', 'param': '', 'code': None}}",
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 40663,
+    "output_tokens": 1636,
+    "total_tokens": 42299,
+    "reasoning_tokens": null
+  },
+  "turn_count": 9
+}

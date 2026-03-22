@@ -1,0 +1,28 @@
+{
+  "task_name": "chinook__customer_data_migration",
+  "model_name": "gemini-2.5-pro",
+  "actual_model_name": "gemini-2.5-pro",
+  "litellm_run_model_name": "gemini-2.5-pro",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T11:18:23.629613",
+    "end": "2025-08-20T11:21:33.662334"
+  },
+  "agent_execution_time": 189.905615568161,
+  "task_execution_time": 190.03271913528442,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 95913,
+    "output_tokens": 20838,
+    "total_tokens": 116751,
+    "reasoning_tokens": null
+  },
+  "turn_count": 6
+}

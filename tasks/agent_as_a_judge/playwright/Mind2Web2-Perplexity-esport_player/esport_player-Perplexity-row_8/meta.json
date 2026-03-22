@@ -1,0 +1,18 @@
+{
+    "task_id": "esport_player-Perplexity-row_8",
+    "task_name": "esport_player-Perplexity-row_8",
+    "category_id": "Mind2Web2-Perplexity-esport_player",
+    "category_name": "Mind2Web2-Perplexity-esport_player",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Perplexity-esport_player",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "task_id": "pritzker_prize_winner-Gemini-row_6",
+    "task_name": "pritzker_prize_winner-Gemini-row_6",
+    "category_id": "Mind2Web2-Gemini-pritzker_prize_winner",
+    "category_name": "Mind2Web2-Gemini-pritzker_prize_winner",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Gemini-pritzker_prize_winner",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

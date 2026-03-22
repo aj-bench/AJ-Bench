@@ -1,0 +1,28 @@
+{
+  "task_name": "dvdrental__customer_analytics_optimization",
+  "model_name": "glm-4.5",
+  "actual_model_name": "glm-4.5",
+  "litellm_run_model_name": "glm-4.5",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-27T02:25:57.470224",
+    "end": "2025-08-27T02:29:51.908539"
+  },
+  "agent_execution_time": 234.26640725135803,
+  "task_execution_time": 234.43831181526184,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 431767,
+    "output_tokens": 10624,
+    "total_tokens": 442391,
+    "reasoning_tokens": null
+  },
+  "turn_count": 41
+}

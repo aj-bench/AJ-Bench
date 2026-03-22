@@ -1,0 +1,28 @@
+{
+  "task_name": "lego__database_security_policies",
+  "model_name": "glm-4.5",
+  "actual_model_name": "glm-4.5",
+  "litellm_run_model_name": "glm-4.5",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-27T11:07:44.621525",
+    "end": "2025-08-27T11:13:19.749310"
+  },
+  "agent_execution_time": 334.94474172592163,
+  "task_execution_time": 335.1277823448181,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 715541,
+    "output_tokens": 10738,
+    "total_tokens": 726279,
+    "reasoning_tokens": null
+  },
+  "turn_count": 58
+}

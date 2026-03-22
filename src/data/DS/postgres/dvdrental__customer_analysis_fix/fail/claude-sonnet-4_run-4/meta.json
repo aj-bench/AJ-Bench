@@ -1,0 +1,28 @@
+{
+  "task_name": "dvdrental__customer_analysis_fix",
+  "model_name": "claude-sonnet-4-20250514",
+  "actual_model_name": "claude-sonnet-4-20250514",
+  "litellm_run_model_name": "claude-sonnet-4-20250514",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T15:51:34.257962",
+    "end": "2025-08-20T15:54:56.668421"
+  },
+  "agent_execution_time": 202.04206728935242,
+  "task_execution_time": 202.4104564189911,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 824641,
+    "output_tokens": 6316,
+    "total_tokens": 830957,
+    "reasoning_tokens": null
+  },
+  "turn_count": 17
+}

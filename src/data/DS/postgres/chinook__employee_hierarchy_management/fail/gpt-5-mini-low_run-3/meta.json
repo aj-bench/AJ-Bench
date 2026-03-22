@@ -1,0 +1,28 @@
+{
+  "task_name": "chinook__employee_hierarchy_management",
+  "model_name": "gpt-5-mini",
+  "actual_model_name": "gpt-5-mini-2025-08-07",
+  "litellm_run_model_name": "gpt-5-mini-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-27T08:47:32.623464",
+    "end": "2025-08-27T08:48:35.820407"
+  },
+  "agent_execution_time": 62.93753409385681,
+  "task_execution_time": 63.19693946838379,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 26020,
+    "output_tokens": 6872,
+    "total_tokens": 32892,
+    "reasoning_tokens": null
+  },
+  "turn_count": 7
+}

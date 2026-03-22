@@ -1,0 +1,28 @@
+{
+  "task_name": "legal_document__solution_tracing",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-24T00:09:08.963878",
+    "end": "2025-08-24T00:11:32.594301"
+  },
+  "agent_execution_time": 143.57952189445496,
+  "task_execution_time": 143.6304190158844,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 294946,
+    "output_tokens": 1614,
+    "total_tokens": 296560,
+    "reasoning_tokens": null
+  },
+  "turn_count": 8
+}

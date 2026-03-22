@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_demographics_report",
+  "model_name": "grok-4",
+  "actual_model_name": "grok-4-0709",
+  "litellm_run_model_name": "grok-4-0709",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T14:56:44.592629",
+    "end": "2025-09-01T14:58:28.941090"
+  },
+  "agent_execution_time": 99.36939644813538,
+  "task_execution_time": 104.34845781326294,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\n\u2705 Gender statistics results are correct (2 records)\n\u2705 Age group analysis results are correct (1 records)\n\u2705 Birth month distribution results are correct (12 records)\n\u2705 Hiring year summary results are correct (16 records)\n\n\ud83c\udf89 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 44845,
+    "output_tokens": 3892,
+    "total_tokens": 48737,
+    "reasoning_tokens": 2719
+  },
+  "turn_count": 9
+}

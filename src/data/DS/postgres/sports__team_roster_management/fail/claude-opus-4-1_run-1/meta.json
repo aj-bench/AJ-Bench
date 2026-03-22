@@ -1,0 +1,28 @@
+{
+  "task_name": "sports__team_roster_management",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T23:43:05.572811",
+    "end": "2025-08-23T23:48:30.791942"
+  },
+  "agent_execution_time": 325.1091368198395,
+  "task_execution_time": 325.21912837028503,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 158775,
+    "output_tokens": 5538,
+    "total_tokens": 164313,
+    "reasoning_tokens": null
+  },
+  "turn_count": 25
+}

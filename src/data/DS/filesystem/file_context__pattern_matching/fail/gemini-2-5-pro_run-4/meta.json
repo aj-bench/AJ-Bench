@@ -1,0 +1,28 @@
+{
+  "task_name": "file_context__pattern_matching",
+  "model_name": "gemini-2.5-pro",
+  "actual_model_name": "gemini-2.5-pro",
+  "litellm_run_model_name": "gemini-2.5-pro",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T18:15:35.006739",
+    "end": "2025-08-20T18:29:15.498675"
+  },
+  "agent_execution_time": 820.365818977356,
+  "task_execution_time": 820.4919292926788,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 833868,
+    "output_tokens": 80990,
+    "total_tokens": 914858,
+    "reasoning_tokens": null
+  },
+  "turn_count": 42
+}

@@ -1,0 +1,27 @@
+{
+  "task_name": "sports__team_roster_management",
+  "model_name": "kimi-k2-0905",
+  "litellm_run_model_name": "kimi-k2-0905-preview",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-07T16:17:38.157111",
+    "end": "2025-09-07T16:23:31.320959"
+  },
+  "agent_execution_time": 352.9692933559418,
+  "task_execution_time": 353.16384530067444,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "==================================================\nVerifying Sports Task 2: Team Roster Management Operations\n==================================================\n❌ Expected 22 player evaluation records, got 23\n\n❌ Task verification: FAIL\n"
+  },
+  "token_usage": {
+    "input_tokens": 466158,
+    "output_tokens": 3698,
+    "total_tokens": 469856,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 32
+}

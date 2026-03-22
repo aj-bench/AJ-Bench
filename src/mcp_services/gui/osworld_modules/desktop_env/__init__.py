@@ -1,0 +1,3 @@
+"""
+Desktop environment module
+"""

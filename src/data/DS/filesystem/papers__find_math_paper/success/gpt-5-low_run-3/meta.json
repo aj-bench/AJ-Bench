@@ -1,0 +1,28 @@
+{
+  "task_name": "papers__find_math_paper",
+  "model_name": "gpt-5",
+  "actual_model_name": "gpt-5-2025-08-07",
+  "litellm_run_model_name": "gpt-5-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T18:07:55.274707",
+    "end": "2025-08-20T18:10:02.114921"
+  },
+  "agent_execution_time": 126.75275087356567,
+  "task_execution_time": 126.84020519256592,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 410037,
+    "output_tokens": 3545,
+    "total_tokens": 413582,
+    "reasoning_tokens": null
+  },
+  "turn_count": 6
+}

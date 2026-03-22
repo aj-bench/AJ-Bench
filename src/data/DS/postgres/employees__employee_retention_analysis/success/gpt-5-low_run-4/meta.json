@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_retention_analysis",
+  "model_name": "gpt-5",
+  "actual_model_name": "gpt-5-2025-08-07",
+  "litellm_run_model_name": "gpt-5-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T14:51:06.972113",
+    "end": "2025-08-20T14:55:45.050367"
+  },
+  "agent_execution_time": 272.8598074913025,
+  "task_execution_time": 278.0782516002655,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 58589,
+    "output_tokens": 21490,
+    "total_tokens": 80079,
+    "reasoning_tokens": null
+  },
+  "turn_count": 14
+}

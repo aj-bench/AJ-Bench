@@ -1,0 +1,28 @@
+{
+  "task_name": "chinook__employee_hierarchy_management",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T21:24:33.771325",
+    "end": "2025-08-23T21:29:56.246204"
+  },
+  "agent_execution_time": 322.3665874004364,
+  "task_execution_time": 322.4748764038086,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 110287,
+    "output_tokens": 5976,
+    "total_tokens": 116263,
+    "reasoning_tokens": null
+  },
+  "turn_count": 18
+}

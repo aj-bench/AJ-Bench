@@ -1,0 +1,18 @@
+{
+    "task_id": "tesla_travel-Grok-row_3",
+    "task_name": "tesla_travel-Grok-row_3",
+    "category_id": "Mind2Web2-Grok-tesla_travel",
+    "category_name": "Mind2Web2-Grok-tesla_travel",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-tesla_travel",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

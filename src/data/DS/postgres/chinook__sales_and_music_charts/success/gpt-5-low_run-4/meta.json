@@ -1,0 +1,28 @@
+{
+  "task_name": "chinook__sales_and_music_charts",
+  "model_name": "gpt-5",
+  "actual_model_name": "gpt-5-2025-08-07",
+  "litellm_run_model_name": "gpt-5-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T14:28:01.950621",
+    "end": "2025-08-20T14:30:35.771896"
+  },
+  "agent_execution_time": 153.69013786315918,
+  "task_execution_time": 153.82127285003662,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 35872,
+    "output_tokens": 9306,
+    "total_tokens": 45178,
+    "reasoning_tokens": null
+  },
+  "turn_count": 10
+}

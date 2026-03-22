@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__executive_dashboard_automation",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T22:28:18.456390",
+    "end": "2025-08-23T22:37:30.844271"
+  },
+  "agent_execution_time": 552.2760052680969,
+  "task_execution_time": 552.3878784179688,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 304039,
+    "output_tokens": 10634,
+    "total_tokens": 314673,
+    "reasoning_tokens": null
+  },
+  "turn_count": 31
+}

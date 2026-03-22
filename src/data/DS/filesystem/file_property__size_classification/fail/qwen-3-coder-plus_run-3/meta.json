@@ -1,0 +1,28 @@
+{
+  "task_name": "file_property__size_classification",
+  "model_name": "qwen-3-coder-plus",
+  "actual_model_name": "qwen3-coder-480b-a35b-instruct",
+  "litellm_run_model_name": "qwen3-coder-plus",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T16:07:06.670742",
+    "end": "2025-09-01T16:07:46.569576"
+  },
+  "agent_execution_time": 39.74799656867981,
+  "task_execution_time": 39.8988311290741,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "\ud83d\udd0d Verifying file classification in: /home/liuxiangyan6/xiangyan/mcpmark/.mcpmark_backups/backup_filesystem_file_property_size_classification_3267320\n\n\ud83d\udccb Checking: Directory existence\n\u2705 All required directories exist\n\n\ud83d\udccb Checking: File classification\n\u274c Unexpected files in 'medium_files': ['sg.jpg']\n\n\ud83d\udccb Checking: No files in root\n\u2705 No files remain in root directory\n\n\ud83d\udccb Checking: File size validation\n\u274c File sg.jpg in medium_files but size is 332545 bytes\n\n\ud83d\udccb Checking: Total file count\n\u2705 Total file count is correct: 8\n\n\u274c Some verification checks failed!\n"
+  },
+  "token_usage": {
+    "input_tokens": 81824,
+    "output_tokens": 1986,
+    "total_tokens": 83810,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 19
+}

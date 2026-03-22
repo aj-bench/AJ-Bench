@@ -1,0 +1,28 @@
+{
+  "task_name": "file_context__file_merging",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T23:38:15.165017",
+    "end": "2025-08-23T23:39:46.721607"
+  },
+  "agent_execution_time": 91.51880502700806,
+  "task_execution_time": 91.5565869808197,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 16470,
+    "output_tokens": 1823,
+    "total_tokens": 18293,
+    "reasoning_tokens": null
+  },
+  "turn_count": 5
+}

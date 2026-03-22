@@ -1,0 +1,18 @@
+{
+    "task_id": "nlp_faculty-Gemini-row_9",
+    "task_name": "nlp_faculty-Gemini-row_9",
+    "category_id": "Mind2Web2-Gemini-nlp_faculty",
+    "category_name": "Mind2Web2-Gemini-nlp_faculty",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Gemini-nlp_faculty",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

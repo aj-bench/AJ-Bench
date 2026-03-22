@@ -1,0 +1,28 @@
+{
+  "task_name": "vectors__dba_vector_analysis",
+  "model_name": "grok-4",
+  "actual_model_name": "grok-4-0709",
+  "litellm_run_model_name": "grok-4-0709",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T21:40:24.116232",
+    "end": "2025-09-01T21:43:46.945743"
+  },
+  "agent_execution_time": 201.8610806465149,
+  "task_execution_time": 202.8295075893402,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "  PASSED\n\n  FAILED\n    - vector_analysis_storage_consumption table not found\n\n  FAILED\n    - vector_analysis_indices table not found\n\n  PASSED\n\nResults: 2/4 checks passed\n"
+  },
+  "token_usage": {
+    "input_tokens": 321596,
+    "output_tokens": 7069,
+    "total_tokens": 328665,
+    "reasoning_tokens": 5464
+  },
+  "turn_count": 32
+}

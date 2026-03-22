@@ -1,0 +1,28 @@
+{
+  "task_name": "chinook__customer_data_migration",
+  "model_name": "gpt-5",
+  "actual_model_name": "gpt-5-2025-08-07",
+  "litellm_run_model_name": "gpt-5-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T14:20:26.302722",
+    "end": "2025-08-20T14:24:22.218021"
+  },
+  "agent_execution_time": 235.79297876358032,
+  "task_execution_time": 235.9152970314026,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 98151,
+    "output_tokens": 16519,
+    "total_tokens": 114670,
+    "reasoning_tokens": null
+  },
+  "turn_count": 7
+}

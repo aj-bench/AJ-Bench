@@ -1,0 +1,28 @@
+{
+  "task_name": "vectors__dba_vector_analysis",
+  "model_name": "gpt-4.1-mini",
+  "actual_model_name": "gpt-4.1-mini-2025-04-14",
+  "litellm_run_model_name": "gpt-4.1-mini-2025-04-14",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T10:16:20.982563",
+    "end": "2025-09-01T10:17:48.593415"
+  },
+  "agent_execution_time": 82.87797737121582,
+  "task_execution_time": 87.61084866523743,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": "Verification failed with no error message",
+    "verification_output": "  FAILED\n    - Non-existing: {('chunks_embedding_idx', 'embedding'), ('queries_embedding_idx', 'embedding'), ('documents_embedding_idx', 'embedding')}\n\n  FAILED\n    - Agent analyzed non-vector tables: {'vector_analysis_columns', 'knowledge_base', 'search_cache', 'vector_analysis_storage_consumption', 'vector_analysis_indices', 'embedding_models'}\n\n  PASSED\n\n  PASSED\n\nResults: 2/4 checks passed\n"
+  },
+  "token_usage": {
+    "input_tokens": 132356,
+    "output_tokens": 3291,
+    "total_tokens": 135647,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 23
+}

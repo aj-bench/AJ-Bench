@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__management_structure_analysis",
+  "model_name": "deepseek-chat",
+  "actual_model_name": "deepseek-v3.1-non-think",
+  "litellm_run_model_name": "deepseek-chat",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T17:31:03.492861",
+    "end": "2025-08-20T17:35:43.744054"
+  },
+  "agent_execution_time": 275.8767387866974,
+  "task_execution_time": 280.2511899471283,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 169213,
+    "output_tokens": 3183,
+    "total_tokens": 172396,
+    "reasoning_tokens": null
+  },
+  "turn_count": 29
+}

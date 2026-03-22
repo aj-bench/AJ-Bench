@@ -1,0 +1,28 @@
+{
+  "task_name": "chinook__sales_and_music_charts",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T21:29:56.246500",
+    "end": "2025-08-23T21:37:00.529520"
+  },
+  "agent_execution_time": 424.17409896850586,
+  "task_execution_time": 424.2830185890198,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 199197,
+    "output_tokens": 7297,
+    "total_tokens": 206494,
+    "reasoning_tokens": null
+  },
+  "turn_count": 29
+}

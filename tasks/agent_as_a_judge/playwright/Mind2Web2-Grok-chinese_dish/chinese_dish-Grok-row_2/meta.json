@@ -1,0 +1,18 @@
+{
+    "task_id": "chinese_dish-Grok-row_2",
+    "task_name": "chinese_dish-Grok-row_2",
+    "category_id": "Mind2Web2-Grok-chinese_dish",
+    "category_name": "Mind2Web2-Grok-chinese_dish",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-chinese_dish",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

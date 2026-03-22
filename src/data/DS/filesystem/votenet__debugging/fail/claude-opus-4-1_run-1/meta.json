@@ -1,0 +1,28 @@
+{
+  "task_name": "votenet__debugging",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-24T01:12:16.969084",
+    "end": "2025-08-24T01:15:31.230139"
+  },
+  "agent_execution_time": 194.19709610939026,
+  "task_execution_time": 194.2610490322113,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 90470,
+    "output_tokens": 2199,
+    "total_tokens": 92669,
+    "reasoning_tokens": null
+  },
+  "turn_count": 13
+}

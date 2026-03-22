@@ -1,0 +1,18 @@
+{
+    "task_id": "find_parks-Perplexity-row_1",
+    "task_name": "find_parks-Perplexity-row_1",
+    "category_id": "Mind2Web2-Perplexity-find_parks",
+    "category_name": "Mind2Web2-Perplexity-find_parks",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Perplexity-find_parks",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

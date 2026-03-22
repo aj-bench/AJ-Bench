@@ -1,0 +1,18 @@
+{
+    "task_id": "apple_watch-Perplexity-row_12",
+    "task_name": "apple_watch-Perplexity-row_12",
+    "category_id": "Mind2Web2-Perplexity-apple_watch",
+    "category_name": "Mind2Web2-Perplexity-apple_watch",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Perplexity-apple_watch",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

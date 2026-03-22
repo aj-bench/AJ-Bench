@@ -1,0 +1,28 @@
+{
+  "task_name": "folder_structure__structure_mirror",
+  "model_name": "glm-4.5",
+  "actual_model_name": "glm-4.5",
+  "litellm_run_model_name": "glm-4.5",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-27T08:47:23.191092",
+    "end": "2025-08-27T08:55:16.779358"
+  },
+  "agent_execution_time": 473.523966550827,
+  "task_execution_time": 473.58826303482056,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 1296837,
+    "output_tokens": 14274,
+    "total_tokens": 1311111,
+    "reasoning_tokens": null
+  },
+  "turn_count": 86
+}

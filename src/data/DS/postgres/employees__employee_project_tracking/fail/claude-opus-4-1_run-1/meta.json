@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_project_tracking",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T22:08:08.910188",
+    "end": "2025-08-23T22:15:39.613510"
+  },
+  "agent_execution_time": 450.58818912506104,
+  "task_execution_time": 450.703320980072,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 213055,
+    "output_tokens": 7961,
+    "total_tokens": 221016,
+    "reasoning_tokens": null
+  },
+  "turn_count": 30
+}

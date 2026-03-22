@@ -1,0 +1,18 @@
+{
+    "task_id": "gas_stations-Grok-row_11",
+    "task_name": "gas_stations-Grok-row_11",
+    "category_id": "Mind2Web2-Grok-gas_stations",
+    "category_name": "Mind2Web2-Grok-gas_stations",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-gas_stations",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

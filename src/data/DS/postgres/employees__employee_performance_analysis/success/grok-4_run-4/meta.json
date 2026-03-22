@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_performance_analysis",
+  "model_name": "grok-4",
+  "actual_model_name": "grok-4-0709",
+  "litellm_run_model_name": "grok-4-0709",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T20:59:53.739840",
+    "end": "2025-09-01T21:02:20.110186"
+  },
+  "agent_execution_time": 137.11541318893433,
+  "task_execution_time": 146.37034225463867,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\n\u2705 Employee performance results are correct (240124 records)\n\u2705 Department salary results are correct (9 records)\n\n\ud83c\udf89 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 91524,
+    "output_tokens": 5885,
+    "total_tokens": 97409,
+    "reasoning_tokens": 4961
+  },
+  "turn_count": 12
+}

@@ -1,0 +1,18 @@
+{
+    "task_id": "game_awards-Perplexity-row_5",
+    "task_name": "game_awards-Perplexity-row_5",
+    "category_id": "Mind2Web2-Perplexity-game_awards",
+    "category_name": "Mind2Web2-Perplexity-game_awards",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Perplexity-game_awards",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

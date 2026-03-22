@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_performance_analysis",
+  "model_name": "deepseek-chat",
+  "actual_model_name": "deepseek-v3.1-non-think",
+  "litellm_run_model_name": "deepseek-chat",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T17:11:21.889979",
+    "end": "2025-08-20T17:16:10.436033"
+  },
+  "agent_execution_time": 283.1484069824219,
+  "task_execution_time": 288.5460524559021,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 122750,
+    "output_tokens": 3923,
+    "total_tokens": 126673,
+    "reasoning_tokens": null
+  },
+  "turn_count": 23
+}

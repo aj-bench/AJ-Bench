@@ -1,0 +1,28 @@
+{
+  "task_name": "desktop_template__contact_information",
+  "model_name": "gemini-2.5-pro",
+  "actual_model_name": "gemini-2.5-pro",
+  "litellm_run_model_name": "gemini-2.5-pro",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T17:51:00.953408",
+    "end": "2025-08-20T17:51:13.675573"
+  },
+  "agent_execution_time": 12.666244745254517,
+  "task_execution_time": 12.722160816192627,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 3220,
+    "output_tokens": 311,
+    "total_tokens": 3531,
+    "reasoning_tokens": null
+  },
+  "turn_count": 2
+}

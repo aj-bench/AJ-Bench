@@ -1,0 +1,28 @@
+{
+  "task_name": "threestudio__code_locating",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-24T00:57:59.697016",
+    "end": "2025-08-24T00:59:54.142105"
+  },
+  "agent_execution_time": 114.27874207496643,
+  "task_execution_time": 114.44508004188538,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 47564,
+    "output_tokens": 1408,
+    "total_tokens": 48972,
+    "reasoning_tokens": null
+  },
+  "turn_count": 10
+}

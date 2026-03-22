@@ -1,0 +1,18 @@
+{
+    "task_id": "nba_player_china_tour-Grok-row_15",
+    "task_name": "nba_player_china_tour-Grok-row_15",
+    "category_id": "Mind2Web2-Grok-nba_player_china_tour",
+    "category_name": "Mind2Web2-Grok-nba_player_china_tour",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-nba_player_china_tour",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

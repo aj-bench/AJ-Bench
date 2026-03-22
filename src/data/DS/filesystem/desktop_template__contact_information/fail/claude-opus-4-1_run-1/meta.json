@@ -1,0 +1,28 @@
+{
+  "task_name": "desktop_template__contact_information",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T23:22:42.598447",
+    "end": "2025-08-23T23:25:23.867714"
+  },
+  "agent_execution_time": 161.22254180908203,
+  "task_execution_time": 161.2692630290985,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 54985,
+    "output_tokens": 2735,
+    "total_tokens": 57720,
+    "reasoning_tokens": null
+  },
+  "turn_count": 10
+}

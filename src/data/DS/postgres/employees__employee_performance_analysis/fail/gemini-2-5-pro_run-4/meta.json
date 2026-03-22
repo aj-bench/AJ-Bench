@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_performance_analysis",
+  "model_name": "gemini-2.5-pro",
+  "actual_model_name": "gemini-2.5-pro",
+  "litellm_run_model_name": "gemini-2.5-pro",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T18:36:49.868387",
+    "end": "2025-08-20T18:38:51.553564"
+  },
+  "agent_execution_time": 116.98746514320374,
+  "task_execution_time": 121.6851749420166,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 30645,
+    "output_tokens": 10116,
+    "total_tokens": 40761,
+    "reasoning_tokens": null
+  },
+  "turn_count": 10
+}

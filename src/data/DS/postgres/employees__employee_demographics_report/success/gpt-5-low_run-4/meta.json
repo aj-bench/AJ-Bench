@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_demographics_report",
+  "model_name": "gpt-5",
+  "actual_model_name": "gpt-5-2025-08-07",
+  "litellm_run_model_name": "gpt-5-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T14:43:31.978629",
+    "end": "2025-08-20T14:45:34.567533"
+  },
+  "agent_execution_time": 118.34856510162354,
+  "task_execution_time": 122.58890151977539,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 32823,
+    "output_tokens": 8946,
+    "total_tokens": 41769,
+    "reasoning_tokens": null
+  },
+  "turn_count": 10
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "legal_document__individual_comments",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-24T00:06:32.766036",
+    "end": "2025-08-24T00:09:08.963492"
+  },
+  "agent_execution_time": 156.1454041004181,
+  "task_execution_time": 156.19745302200317,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 193146,
+    "output_tokens": 1875,
+    "total_tokens": 195021,
+    "reasoning_tokens": null
+  },
+  "turn_count": 7
+}

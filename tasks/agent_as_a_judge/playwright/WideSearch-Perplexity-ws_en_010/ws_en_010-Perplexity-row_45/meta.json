@@ -1,0 +1,18 @@
+{
+    "task_id": "ws_en_010-Perplexity-row_45",
+    "task_name": "ws_en_010-Perplexity-row_45",
+    "category_id": "WideSearch-Perplexity-ws_en_010",
+    "category_name": "WideSearch-Perplexity-ws_en_010",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-29",
+    "difficulty": "Normal",
+    "tags": [
+        "WideSearch-Perplexity-ws_en_010",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

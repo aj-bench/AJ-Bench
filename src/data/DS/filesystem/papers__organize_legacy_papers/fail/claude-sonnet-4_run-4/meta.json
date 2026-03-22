@@ -1,0 +1,28 @@
+{
+  "task_name": "papers__organize_legacy_papers",
+  "model_name": "claude-sonnet-4-20250514",
+  "actual_model_name": "claude-sonnet-4-20250514",
+  "litellm_run_model_name": "claude-sonnet-4-20250514",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T20:24:37.054911",
+    "end": "2025-08-20T20:28:12.631301"
+  },
+  "agent_execution_time": 215.52052688598633,
+  "task_execution_time": 215.57638716697693,
+  "execution_result": {
+    "success": false,
+    "error_message": "Error code: 400 - {'error': {'message': 'prompt is too long: 209584 tokens > 200000 maximum (tid: 2025082012275470998813159579827)', 'type': 'invalid_request_error', 'param': '', 'code': None}}",
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 434345,
+    "output_tokens": 5164,
+    "total_tokens": 439509,
+    "reasoning_tokens": null
+  },
+  "turn_count": 27
+}

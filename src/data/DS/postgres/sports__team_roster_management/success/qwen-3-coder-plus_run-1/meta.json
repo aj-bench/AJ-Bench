@@ -1,0 +1,28 @@
+{
+  "task_name": "sports__team_roster_management",
+  "model_name": "qwen-3-coder-plus",
+  "actual_model_name": "qwen3-coder-480b-a35b-instruct",
+  "litellm_run_model_name": "qwen3-coder-plus",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-01T11:11:37.151635",
+    "end": "2025-09-01T11:13:49.232915"
+  },
+  "agent_execution_time": 131.8235502243042,
+  "task_execution_time": 132.08127546310425,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "==================================================\nVerifying Sports Task 2: Team Roster Management Operations\n==================================================\n\u2705 Player evaluation table is correct (22 records)\n\u2705 Player injury status table is correct (22 records)\n\u2705 Team performance summary table is correct (6 metrics)\n\n\ud83c\udf89 Task verification: PASS\n"
+  },
+  "token_usage": {
+    "input_tokens": 735906,
+    "output_tokens": 4013,
+    "total_tokens": 739919,
+    "reasoning_tokens": 0
+  },
+  "turn_count": 41
+}

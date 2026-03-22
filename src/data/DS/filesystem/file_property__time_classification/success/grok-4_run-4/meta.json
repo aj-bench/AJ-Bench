@@ -1,0 +1,28 @@
+{
+  "task_name": "file_property__time_classification",
+  "model_name": "grok-4",
+  "actual_model_name": "grok-4-0709",
+  "litellm_run_model_name": "grok-4-0709",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-09-02T02:35:46.451357",
+    "end": "2025-09-02T02:40:08.701915"
+  },
+  "agent_execution_time": 262.1950764656067,
+  "task_execution_time": 262.250554561615,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": "\ud83d\udd0d Verifying Time Classification in: /home/liuxiangyan6/xiangyan/mcpmark/.mcpmark_backups/backup_filesystem_file_property_time_classification_3817528\n\n\ud83d\udccb Checking: Directory structure\n\u2705 Directory structure is correct\n\n\ud83d\udccb Checking: Files in directories\n\u2705 All files are in correct directories\n\n\ud83d\udccb Checking: Metadata analysis files\n\u2705 All metadata_analyse.txt files are correct\n\n\ud83d\udccb Checking: No files in root\n\u2705 No files remain in root directory\n\n\ud83d\udccb Checking: Total file count\n\u2705 Total file count is correct: 8\n\n\ud83c\udf89 All verification checks passed!\n"
+  },
+  "token_usage": {
+    "input_tokens": 93397,
+    "output_tokens": 11643,
+    "total_tokens": 105040,
+    "reasoning_tokens": 9079
+  },
+  "turn_count": 10
+}

@@ -1,0 +1,18 @@
+{
+    "task_id": "ws_en_034-Gemini-row_29",
+    "task_name": "ws_en_034-Gemini-row_29",
+    "category_id": "WideSearch-Gemini-ws_en_034",
+    "category_name": "WideSearch-Gemini-ws_en_034",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-29",
+    "difficulty": "Normal",
+    "tags": [
+        "WideSearch-Gemini-ws_en_034",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

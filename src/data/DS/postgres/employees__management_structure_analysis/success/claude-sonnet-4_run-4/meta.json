@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__management_structure_analysis",
+  "model_name": "claude-sonnet-4-20250514",
+  "actual_model_name": "claude-sonnet-4-20250514",
+  "litellm_run_model_name": "claude-sonnet-4-20250514",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T16:16:43.638090",
+    "end": "2025-08-20T16:18:42.026083"
+  },
+  "agent_execution_time": 113.99840998649597,
+  "task_execution_time": 118.38798999786377,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 136687,
+    "output_tokens": 4581,
+    "total_tokens": 141268,
+    "reasoning_tokens": null
+  },
+  "turn_count": 20
+}

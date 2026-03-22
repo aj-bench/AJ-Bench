@@ -1,0 +1,28 @@
+{
+  "task_name": "desktop__project_management",
+  "model_name": "claude-sonnet-4-20250514",
+  "actual_model_name": "claude-sonnet-4-20250514",
+  "litellm_run_model_name": "claude-sonnet-4-20250514",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T19:44:49.993433",
+    "end": "2025-08-20T19:48:42.514085"
+  },
+  "agent_execution_time": 232.45103693008423,
+  "task_execution_time": 232.52064394950867,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 408463,
+    "output_tokens": 8486,
+    "total_tokens": 416949,
+    "reasoning_tokens": null
+  },
+  "turn_count": 43
+}

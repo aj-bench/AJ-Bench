@@ -1,0 +1,28 @@
+{
+  "task_name": "sports__team_roster_management",
+  "model_name": "gpt-5",
+  "actual_model_name": "gpt-5-2025-08-07",
+  "litellm_run_model_name": "gpt-5-2025-08-07",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T15:33:43.508622",
+    "end": "2025-08-20T15:37:28.087751"
+  },
+  "agent_execution_time": 224.42473769187927,
+  "task_execution_time": 224.57912635803223,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 105498,
+    "output_tokens": 15052,
+    "total_tokens": 120550,
+    "reasoning_tokens": null
+  },
+  "turn_count": 15
+}

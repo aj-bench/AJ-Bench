@@ -1,0 +1,28 @@
+{
+  "task_name": "papers__find_math_paper",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "filesystem",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-24T00:22:29.601539",
+    "end": "2025-08-24T00:24:50.110041"
+  },
+  "agent_execution_time": 140.44481205940247,
+  "task_execution_time": 140.50849795341492,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 421671,
+    "output_tokens": 1378,
+    "total_tokens": 423049,
+    "reasoning_tokens": null
+  },
+  "turn_count": 6
+}

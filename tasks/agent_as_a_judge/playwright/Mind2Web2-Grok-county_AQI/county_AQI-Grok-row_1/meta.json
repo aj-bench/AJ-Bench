@@ -1,0 +1,18 @@
+{
+    "task_id": "county_AQI-Grok-row_1",
+    "task_name": "county_AQI-Grok-row_1",
+    "category_id": "Mind2Web2-Grok-county_AQI",
+    "category_name": "Mind2Web2-Grok-county_AQI",
+    "description": "Judge one single row of a response to a given query.",
+    "author": "Yu Wang",
+    "created_at": "2025-11-15",
+    "difficulty": "Normal",
+    "tags": [
+        "Mind2Web2-Grok-county_AQI",
+        "Agent-as-a-Judge",
+        "Search Domain"
+    ],
+    "mcp": [
+        "playwright"
+    ]
+}

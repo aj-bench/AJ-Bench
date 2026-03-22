@@ -1,0 +1,28 @@
+{
+  "task_name": "security__rls_business_access",
+  "model_name": "claude-sonnet-4-20250514",
+  "actual_model_name": "claude-sonnet-4-20250514",
+  "litellm_run_model_name": "claude-sonnet-4-20250514",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-25T05:56:20.130497",
+    "end": "2025-08-25T06:09:28.441334"
+  },
+  "agent_execution_time": 788.1161556243896,
+  "task_execution_time": 788.3108348846436,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 328727,
+    "output_tokens": 8662,
+    "total_tokens": 337389,
+    "reasoning_tokens": null
+  },
+  "turn_count": 28
+}

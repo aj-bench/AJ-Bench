@@ -1,0 +1,28 @@
+{
+  "task_name": "sports__baseball_player_analysis",
+  "model_name": "claude-opus-4-1-20250805",
+  "actual_model_name": "claude-opus-4-1-20250805",
+  "litellm_run_model_name": "claude-opus-4-1-20250805",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-23T23:31:03.173791",
+    "end": "2025-08-23T23:38:27.589854"
+  },
+  "agent_execution_time": 444.3078725337982,
+  "task_execution_time": 444.41606068611145,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 158872,
+    "output_tokens": 9194,
+    "total_tokens": 168066,
+    "reasoning_tokens": null
+  },
+  "turn_count": 18
+}

@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_demographics_report",
+  "model_name": "claude-sonnet-4-20250514",
+  "actual_model_name": "claude-sonnet-4-20250514",
+  "litellm_run_model_name": "claude-sonnet-4-20250514",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T08:10:23.415819",
+    "end": "2025-08-20T08:14:46.943586"
+  },
+  "agent_execution_time": 259.85346817970276,
+  "task_execution_time": 263.527765750885,
+  "execution_result": {
+    "success": false,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 152475,
+    "output_tokens": 6484,
+    "total_tokens": 158959,
+    "reasoning_tokens": null
+  },
+  "turn_count": 19
+}

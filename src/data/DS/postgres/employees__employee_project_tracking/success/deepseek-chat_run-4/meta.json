@@ -1,0 +1,28 @@
+{
+  "task_name": "employees__employee_project_tracking",
+  "model_name": "deepseek-chat",
+  "actual_model_name": "deepseek-v3.1-non-think",
+  "litellm_run_model_name": "deepseek-chat",
+  "reasoning_effort": "default",
+  "mcp": "postgres",
+  "timeout": 3600,
+  "time": {
+    "start": "2025-08-20T17:16:10.436345",
+    "end": "2025-08-20T17:21:18.789063"
+  },
+  "agent_execution_time": 306.0412690639496,
+  "task_execution_time": 308.35271549224854,
+  "execution_result": {
+    "success": true,
+    "error_message": null,
+    "verification_error": null,
+    "verification_output": null
+  },
+  "token_usage": {
+    "input_tokens": 192535,
+    "output_tokens": 3537,
+    "total_tokens": 196072,
+    "reasoning_tokens": null
+  },
+  "turn_count": 33
+}
