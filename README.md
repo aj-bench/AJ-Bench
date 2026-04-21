@@ -2,7 +2,7 @@
 
 # AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation
 
-[![Website](https://img.shields.io/badge/Website-aj--bench.github.io-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://aj-bench.github.io) [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white)]()
+📄 [Paper](https://arxiv.org/pdf/2604.18240) &nbsp;·&nbsp; 🌐 [Website](https://aj-bench.github.io/) &nbsp;·&nbsp; 🏆 [Leaderboard](https://aj-bench.github.io/#Leaderboard) &nbsp;·&nbsp; 🤗 [Dataset](https://github.com/aj-bench/AJ-Bench/tree/main/src/data) &nbsp;·&nbsp; 💻 [Code](https://github.com/aj-bench/AJ-Bench)
 </div>
 
 ## 📖 Introduction
@@ -223,7 +223,7 @@ If you find AJ-Bench helpful for your research, please cite our work:
 @article{shi2026ajbench,
   title={AJ-Bench: Benchmarking Agent-as-a-Judge for Environment-Aware Evaluation},
   author={Shi, Wentao and Wang, Yu and Zhao, Yuyang and Chen, Yuxin and Feng, Fuli and Hao, Xueyuan and Su, Xi and Gu, Qi and Su, Hui and Cai, Xunliang and He, Xiangnan},
-  journal={arXiv preprint arXiv:tobedone},
+  journal={arXiv preprint arXiv:2604.18240},
   year={2026}
 }
 ```
