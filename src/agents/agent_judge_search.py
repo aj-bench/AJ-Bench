@@ -65,6 +65,14 @@ class AgentJudgeSearch(BaseMCPAgent):
         'and when finished, provides the final answer or simply states "Task completed" '
         "without further tool calls."
     )
+
+    # When enabled, reorder the judge prompt so that all static content
+    # (task-independent instructions + the per-task Query/Response/Rubric) forms
+    # a cache-stable prefix and the only per-row variable -- the extracted
+    # "Single-Row" -- is placed last. Across the many single-row judgments of one
+    # task this keeps the shared prefix identical, so provider-side prompt
+    # caching (e.g. DeepSeek context caching) is reused instead of re-billed.
+    CACHE_FRIENDLY_PROMPT_ORDER = True
     COMPACTION_PROMPT = (
         "You are performing a CONTEXT CHECKPOINT COMPACTION.\n"
         "Summarize the conversation so far for another model to continue.\n\n"
@@ -937,6 +945,33 @@ class AgentJudgeSearch(BaseMCPAgent):
             logger.error(f"Manual MCP execution failed: {e}")
             raise
 
+    def _build_initial_messages(self, instruction: str) -> List[Dict[str, str]]:
+        """Build the initial [system, user] messages for a single-row judgment.
+
+        With ``CACHE_FRIENDLY_PROMPT_ORDER`` the rendered task instruction is
+        reordered so the static parts become a cache-stable prefix and the
+        variable ``Single-Row`` comes last. Content is unchanged -- only the
+        order differs. Falls back to the original layout when the expected
+        section markers are absent.
+        """
+        markers = ("### Query", "### Single-Row", "## Core Principle")
+        if self.CACHE_FRIENDLY_PROMPT_ORDER and all(m in instruction for m in markers):
+            i_query = instruction.index("### Query")
+            i_single = instruction.index("### Single-Row")
+            i_rules = instruction.index("## Core Principle")
+            static_intro = instruction[:i_query]          # header / role framing
+            task_context = instruction[i_query:i_single]   # Query + Response + Rubric (static per task)
+            single_row = instruction[i_single:i_rules]     # extracted Single-Row (variable, per row)
+            static_rules = instruction[i_rules:]           # procedure / judgment rules / output format
+            return [
+                {"role": "system", "content": self.SYSTEM_PROMPT + "\n\n" + static_intro + static_rules},
+                {"role": "user", "content": task_context + single_row},
+            ]
+        return [
+            {"role": "system", "content": self.SYSTEM_PROMPT},
+            {"role": "user", "content": instruction},
+        ]
+
     async def _execute_litellm_tool_loop(
         self,
         instruction: str,
@@ -945,10 +980,7 @@ class AgentJudgeSearch(BaseMCPAgent):
         tool_call_log_file: Optional[str] = None,
     ) -> Dict[str, Any]:
         """Execute function calling loop with LiteLLM, including web content summarization."""
-        messages = [
-            {"role": "system", "content": self.SYSTEM_PROMPT},
-            {"role": "user", "content": instruction},
-        ]
+        messages = self._build_initial_messages(instruction)
         total_tokens = {
             "input_tokens": 0,
             "output_tokens": 0,
@@ -1147,6 +1179,24 @@ class AgentJudgeSearch(BaseMCPAgent):
                             total_tokens["reasoning_tokens"] += (
                                 details.reasoning_tokens or 0
                             )
+
+                    # Track provider-side prompt cache hits when reported
+                    # (OpenAI-style prompt_tokens_details.cached_tokens and/or
+                    # DeepSeek-style prompt_cache_hit_tokens) for observability.
+                    prompt_details = getattr(
+                        response.usage, "prompt_tokens_details", None
+                    )
+                    cached_tokens = 0
+                    if prompt_details is not None:
+                        cached_tokens = getattr(prompt_details, "cached_tokens", 0) or 0
+                    if not cached_tokens:
+                        cached_tokens = (
+                            getattr(response.usage, "prompt_cache_hit_tokens", 0) or 0
+                        )
+                    if cached_tokens:
+                        total_tokens["cached_input_tokens"] = (
+                            total_tokens.get("cached_input_tokens", 0) + cached_tokens
+                        )
 
                 # Get response message
                 choices = response.choices
