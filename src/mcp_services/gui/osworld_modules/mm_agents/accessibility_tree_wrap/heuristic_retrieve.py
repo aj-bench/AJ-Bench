@@ -1,3 +1,4 @@
+import ast
 import io
 import xml.etree.ElementTree as ET
 from typing import Tuple, List
@@ -85,8 +86,8 @@ def judge_node(node: ET, platform="ubuntu", check_image=False) -> bool:
                     or check_image and node.get("image", "false") == "true"
             )
 
-    coordinates: Tuple[int, int] = eval(node.get("{{{:}}}screencoord".format(_component_ns), "(-1, -1)"))
-    sizes: Tuple[int, int] = eval(node.get("{{{:}}}size".format(_component_ns), "(-1, -1)"))
+    coordinates: Tuple[int, int] = ast.literal_eval(node.get("{{{:}}}screencoord".format(_component_ns), "(-1, -1)"))
+    sizes: Tuple[int, int] = ast.literal_eval(node.get("{{{:}}}size".format(_component_ns), "(-1, -1)"))
     keeps = keeps and coordinates[0] >= 0 and coordinates[1] >= 0 and sizes[0] > 0 and sizes[1] > 0
     return keeps
 

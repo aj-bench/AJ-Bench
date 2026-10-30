@@ -1,7 +1,10 @@
+import ast
+
+
 def check_gnome_favorite_apps(apps_str: str, rule):
     # parse the string like "['thunderbird.desktop', 'vim.desktop', 'google-chrome.desktop']"
     # to a list of strings
-    apps = eval(apps_str)
+    apps = ast.literal_eval(apps_str)
 
     expected_apps = rule["expected"]
 

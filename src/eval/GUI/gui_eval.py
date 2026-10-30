@@ -4,6 +4,7 @@ Analysis script for single_judge evaluation results.
 Aggregates correctness statistics from a result_output directory.
 """
 
+import ast
 import os
 import json
 import glob
@@ -120,7 +121,7 @@ def save_domain_f1_scores_to_summary(model_name: str, app_type_stats: dict, avg_
                     end_idx = content.rfind("]")
                     if end_idx > start_idx:
                         results_str = content[start_idx:end_idx+1]
-                        existing_results = eval(results_str)  # parse Python literal
+                        existing_results = ast.literal_eval(results_str)  # parse Python literal
         except Exception as e:
             print(f"⚠️  Failed to read existing summary.py, creating a new file: {e}")
     

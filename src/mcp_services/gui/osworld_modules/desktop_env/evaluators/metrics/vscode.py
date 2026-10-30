@@ -109,14 +109,14 @@ def compare_text_file(actual: str, expected: str, **options) -> float:
 
 import zipfile
 from difflib import SequenceMatcher
-import PyPDF2
+from pypdf import PdfReader
 
 def compare_pdf_content(content1, content2, text_similarity_threshold):
     def extract_text_from_pdf(content):
         with open("temp.pdf", "wb") as temp_pdf:
             temp_pdf.write(content)
         with open("temp.pdf", "rb") as temp_pdf:
-            pdf_reader = PyPDF2.PdfReader(temp_pdf)
+            pdf_reader = PdfReader(temp_pdf)
             text = ''
             for page_num in range(len(pdf_reader.pages)):
                 page = pdf_reader.pages[page_num]

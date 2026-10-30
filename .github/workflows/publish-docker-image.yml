@@ -52,8 +52,10 @@ jobs:
       - name: Generate PR metadata
         if: github.event_name == 'pull_request'
         id: pr_meta
+        env:
+          HEAD_REF: ${{ github.head_ref }}
         run: |
-          branch_name="${{ github.head_ref }}"
+          branch_name="${HEAD_REF}"
           sanitized_branch=$(echo "${branch_name}" | sed -E 's/[^a-zA-Z0-9_.-]+/-/g')
           echo "pr_tag=${sanitized_branch}-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
@@ -128,8 +130,10 @@ jobs:
       - name: Generate PR metadata
         if: github.event_name == 'pull_request'
         id: pr_meta
+        env:
+          HEAD_REF: ${{ github.head_ref }}
         run: |
-          branch_name="${{ github.head_ref }}"
+          branch_name="${HEAD_REF}"
           sanitized_branch=$(echo "${branch_name}" | sed -E 's/[^a-zA-Z0-9_.-]+/-/g')
           echo "pr_tag=${sanitized_branch}-$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
